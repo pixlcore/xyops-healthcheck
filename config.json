@@ -1,0 +1,19 @@
+{
+	"log_dir": "/var/log",
+	"log_filename": "healthcheck.log",
+	"log_columns": ["hires_epoch", "date", "hostname", "pid", "component", "category", "code", "msg", "data"],
+	"log_crashes": true,
+	"temp_dir": "/tmp",
+	"pid_file": "/var/run/healthcheck.pid",
+	"debug_level": 5,
+	
+	"masters": [],
+	"port": 5522,
+	
+	"poll_freq_sec": 5,
+	"poll_proto": "http:",
+	
+	"nginx_conf_file": "/etc/nginx/conf.d/backend.conf",
+	"nginx_template": "upstream backend {\n\tserver [host]:[port];\n}\n",
+	"nginx_reload_cmd": "/usr/sbin/nginx -s reload"
+}
