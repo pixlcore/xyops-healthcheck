@@ -17,7 +17,7 @@
 		"nginx"
 	],
 	"bin": {
-		"xyops-healthcheck": "./healthcheck.js"
+		"xyops-healthcheck": "healthcheck.js"
 	},
 	"main": "healthcheck.js",
 	"dependencies": {
