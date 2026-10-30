@@ -1,6 +1,6 @@
 {
 	"name": "@pixlcore/xyops-healthcheck",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "A health check system for xyOps multi-master setups with Nginx.",
 	"author": "Joseph Huckaby <jhuckaby@pixlcore.com>",
 	"license": "MIT",
@@ -21,8 +21,8 @@
 	},
 	"main": "healthcheck.js",
 	"dependencies": {
-		"pixl-request": "^2.2.1",
-		"pixl-server": "^1.0.48",
-		"pixl-tools": "^1.1.7"
+		"pixl-request": "^2.6.12",
+		"pixl-server": "^1.0.51",
+		"pixl-tools": "^2.0.6"
 	}
 }
